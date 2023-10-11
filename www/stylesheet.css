@@ -1,0 +1,138 @@
+
+
+/* the box on the map page */
+
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 10px 10px 10px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.55;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.75;
+  transition-delay: 0;
+}
+
+
+/* dashboard icons */
+.fa-envelope-open-text {color:#FE9FB8;}
+.fa-share {color:#FE9FB8;}
+
+
+/* main page layout */
+
+/* Main body background - off-white*/
+.content-wrapper, .right-side {
+  background-color: #F8F0E3;
+  }
+
+/* main header color */
+.skin-blue .main-header .logo { background-color: #400099; }
+                       
+/* logo when hovered - no change when hovered */
+ .skin-blue .main-header .logo:hover { background-color: #400099; height: 50px;}
+
+/* navbar (rest of the header) */
+.skin-blue .main-header .navbar { background-color: #400099; height: 50px;}
+                       
+
+
+/* tab boxes */
+
+/* tabBox background color - same as main page */
+.tab-pane {
+  background-color: #F8F0E3;
+}
+
+/* tabBox margin color */
+.tab-pane .tab-content {
+  background-color: #F8F0E3;
+
+      border-bottom-color:#000000;
+      border-left-color:#000000;
+      border-right-color:#000000;
+      border-top-color: #000000;
+  
+}
+/* active tab color */
+.nav-tabs-custom .nav-tabs li.active:hover a, .nav-tabs-custom .nav-tabs li.active a {
+     background-color: #8C66C2;
+     border-color: transparent;
+     border-top-color: #000000;
+     color: #ffffff;
+}
+
+.content-wrapper .tabbable .nav .active {
+    border-top: 3px solid red;
+}
+
+/* inactive tab color */
+.nav-tabs-custom .nav-tabs {
+     color: #000000;
+     background-color: #ffffff;
+     border-color: black;
+}
+.nav-tabs > li > a {
+  color: white;
+}              
+
+/*  sidebar styling */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{ background-color: #6633AD; color: white; }
+.skin-blue .main-sidebar .sidebar .sidebar-menu {background-color: #20282e; color: white;}
+.skin-blue .main-sidebar  {background-color: #20282e;}
+ 
+ 
+/* change size of icons in sub-menu items */
+.sidebar .sidebar-menu .treeview-menu>li>a>.fa { font-size: 15px; }
+.sidebar .sidebar-menu .treeview-menu>li>a>.glyphicon { font-size: 13px; }
+                      
+/* Hide icons in sub-menu items */
+.sidebar .sidebar-menu .treeview>a>.fa-angle-left {  display: none; } 
+
+/* shiny box options */
+div.box-header {  text-align: center; }
+.box.box-solid.box-primary>.box-header {  
+   background: #C7D9FF;
+   opacity: 1;
+   color: #000000;
+ }
+.box.box-solid.box-primary.box-title {
+      border-bottom-color:#000000;
+      border-left-color:#000000;
+      border-right-color:#000000;
+      border-top-color: #000000;
+      background-color: #ededed;
+      color: #000000;
+
+}
+
+.box.box-solid.box-success>.box-header {  
+   background: #C5CDFA;
+   opacity: 1;
+   color: #000000;
+ }
+.box.box-solid.box-success {
+      border-bottom-color:#000000;
+      border-left-color:#000000;
+      border-right-color:#000000;
+      border-top-color: #000000;
+}
+
+
+hr {border-top: 1px solid #000000;}
+  
+.shiny-output-error { visibility: hidden; }
+.shiny-output-error:before { visibility: hidden; }
+  
+
+
+.modal-content {
+  background:  #F8F0E3;
+}
+  
